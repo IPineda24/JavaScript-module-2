@@ -16,4 +16,14 @@ texto3.innerText = "PATOTE";
 //Cambiar atributos
 texto1.setAttribute("class", "patito titere");
 texto2.setAttribute("title", "Soy un Titere");
-texto2.setAttribute("class", "titere");
+texto2.classList.add("titere");
+
+//CRUD Create, Read, Update, Delete
+
+
+// Create
+let tagImg = document.createElement("img");
+tagImg.setAttribute("src", "https://img.freepik.com/fotos-premium/patito-ilustracion-naturaleza_826849-193.jpg")
+texto1.appendChild(tagImg);
+
+
