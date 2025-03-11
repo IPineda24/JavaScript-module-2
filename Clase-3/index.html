@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist de Karaoke</title>
+</head>
+<body>
+    <h1>Playlist de Karaoke</h1>
+
+    <!-- Formulario para agregar canciones -->
+    <form id="song-form">
+        <label for="song-name">Nombre de la canción:</label>
+        <input type="text" id="song-name" required>
+        <br>
+        <label for="artist-name">Artista:</label>
+        <input type="text" id="artist-name" required>
+        <br>
+        <label for="song-url">Enlace de la canción:</label>
+        <input type="url" id="song-url" required>
+        <br>
+        <button type="submit">Agregar a la lista</button>
+    </form>
+
+    <!-- Lista de canciones -->
+    <h2>Lista de Reproducción</h2>
+    <ul id="playlist"></ul>
+
+    <script src="main.js"></script>
+</body>
+</html>
