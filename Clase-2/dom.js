@@ -20,10 +20,11 @@ texto2.classList.add("titere");
 
 //CRUD Create, Read, Update, Delete
 
-
 // Create
 let tagImg = document.createElement("img");
-tagImg.setAttribute("src", "https://img.freepik.com/fotos-premium/patito-ilustracion-naturaleza_826849-193.jpg")
+tagImg.setAttribute("src", "https://img.freepik.com/fotos-premium/patito-ilustracion-naturaleza_826849-193.jpg");
+tagImg.style.width = "160px";
+tagImg.style.height = "160px";
 texto1.appendChild(tagImg);
 
 
